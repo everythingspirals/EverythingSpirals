@@ -62,9 +62,11 @@ a, a:visited, a:hover, a:active {
 	margin-right:5px;
 
 }
+
 .project{
-	margin-bottom:25px;
+	padding-bottom:50px;
 }
+
 .project li{
 	list-style: inherit;
 }
