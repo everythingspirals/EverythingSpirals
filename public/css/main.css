@@ -13,17 +13,39 @@ a, a:visited, a:hover, a:active {
   text-decoration:none;
 }
 
-#profile{
+#sidebar .logo{
 	width:150px;
 	margin-left:75px;
 	margin-top:25px;
 }
+
+#navbar{
+		background:#464646;
+			font-family: 'Open Sans', sans-serif;
+			font-size:20px;
+}
+
+#navbar .logo{
+	width:75px;
+	margin:10px;
+	margin-right:50px;
+	margin-left:50px;
+}
+
+#navbar li{
+	display:inline-block;
+}
+#navbar a{
+	color:#fff;
+}
+
 #logo{
 	width:100%;
 }
 
 #sidebar{
 	position:fixed;
+	display:inline-block;
 	top:0;
 	background:#464646;
 	color:#fff;
@@ -44,18 +66,24 @@ a, a:visited, a:hover, a:active {
 
 #content{
 	padding:75px;
-	margin-left:300px;
 	font-size:20px;
 	line-height:1.5;
 	color:#4b4b57;
 }
 
+@media (min-width: 1200px) {
+  #content{
+  	margin-left:300px;
+  }
+}
+
 .screenshot{
 	border:1px solid #ddd;
-	width:500px;
+	width:100%;
 	-webkit-box-shadow: 7px 12px 35px -8px rgba(0,0,0,0.51);
 	-moz-box-shadow: 7px 12px 35px -8px rgba(0,0,0,0.51);
 	box-shadow: 7px 12px 35px -8px rgba(0,0,0,0.51);
+	margin-bottom:50px;
 }
 
 .label{

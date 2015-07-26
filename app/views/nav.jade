@@ -1,0 +1,21 @@
+nav(id="navbar" class="visible-sm visible-md")
+	img(class="logo" alt="Brand" src="/img/profile.jpg" class="img img-circle")
+	li
+		a(href="#") Portfolio
+
+nav(id="sidebar" class="hidden-sm hidden-md")
+	case path
+		when undefined
+			img(class="logo" src="/img/profile.jpg" class="img img-circle") 
+		when "/posts"
+			img(class="logo" src="/img/blog.jpg" class="img img-circle") 
+		when "/experiments"
+			img(class="logo" src="/img/experiments.jpg" class="img img-circle") 
+	ul
+		//li
+			a(href="/posts") Blog
+		li
+			a(href="/") Portfolio
+		//li
+			a(href="/experiments") Experiments
+		
