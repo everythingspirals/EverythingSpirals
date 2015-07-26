@@ -2,7 +2,7 @@
 var http = require('http');
 var express = require('express');
 var path = require('path');
-var mongoose = require('mongoose');
+//var mongoose = require('mongoose');
 
 var config = require('../config');
 var sockets = require('./sockets');
@@ -21,7 +21,7 @@ app.set('view engine', config.views.engine);
 app.use(express.static(path.join(__dirname, '../public')));
 
 //Database
-mongoose.connect(config.db.url);
+//mongoose.connect(config.db.url);
 
 
 //Error Handling
