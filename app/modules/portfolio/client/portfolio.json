@@ -1,0 +1,68 @@
+{
+	"experience": "<p>I began coding as a teenager and in December, 2012, I graduated with a Bachelors in Computer Science. In the past five years, I have led and collaborated in six development life cycles from conception to launch. My first project was an online multi-player browser game, the second was a business management system, and the third a popular mobile-first website. Through these three projects I developed a strong foundation in developing responsive, single-page applications in a Linux/Apache/MySQL/PHP environment.</p> <p>At my most recent job I led a team of junior developers in building first a social networking site, second a business intelligence system, and third an elaborate real estate management system. Through this position I became proficient in the .NET framework, and was also allowed to research and implement new technologies such as AngularJS.</p>",
+	"projects": 
+		[
+			{
+				"name":"Lead Developer - Datex Base Portal",
+				"description":"Business Intelligence System for Commerical Real Estate Companies",
+				"stack":"C#, AngularJS, T-SQL, Entity Framework, Web API 2, Bootstrap, SPA",
+				"responsibilities":[
+					"Led a team of three junior developers",
+					"Designed responsive, Tablet-friendly UI",
+					"Developed a context-menu system to handle single-page navigation using b-trees. This system had to handle potentionally infinte nesting of pages, ie. /buildings/1/tenants/42/invoices/88/...",
+					"Developed secure RESTful APIs using Microsoft Web API 2 with Identity Framework"
+				],
+				"sample":{
+					"type":"img",
+					"source":"/img/baseportal.jpg"
+				}
+			},
+			{
+				"name":"Lead Developer - Datex Business Intelligence",
+				"description":"Business Intelligence System for Commerical Real Estate Companies",
+				"stack":"C#, AngularJS, T-SQL, Entity Framework, Web API 2, Bootstrap, SPA",
+				"responsibilities":[
+					"Led a team of three junior developers",
+					"Designed responsive, Tablet-friendly UI",
+					"Integrated Google Charts API",
+					"Developed secure RESTful APIs using Microsoft Web API 2 with Identity Framework"
+				],
+				"sample":{
+					"type":"video",
+					"source":"/video/datex-business-intelligence.mp4#t=11"
+				}
+			},
+			{
+				"name":"Lead Developer - MRI Software User Group",
+				"description":"Social networking site for users of the MRI software",
+				"stack":"VB.NET, ASP.NET 4.5, jQuery, T-SQL, Bootstrap",
+				"responsibilities":[
+					"Led a team of one junior developer",
+					"Met with the client and created issues/sprints ",
+					"Designed System",
+					"Designed UI"
+				],
+				"sample":{
+					"type":"img",
+					"source":"/img/mriug.jpg"
+				}
+			},
+			{
+				"name":"Lead Developer - Abhayagiri",
+				"description":"Public website for the Buddhist Monastery, Abhayagiri",
+				"stack":"PHP, jQuery, MySQL, Bootstrap, SPA",
+				"responsibilities":[
+					"Designed System",
+					"Designed responsive, Mobile-friendly UI",
+					"Developed a CMS for the client",
+					"Developed a simple javascript framework for handling async requests to the database",
+					"Developed a responsive, persistent audio player",
+					"http://www.abhayagiri.org"
+				],
+				"sample":{
+					"type":"img",
+					"source":"/img/abhayagiri.jpg"
+				}
+			}
+		]
+}

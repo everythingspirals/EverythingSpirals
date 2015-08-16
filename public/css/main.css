@@ -1,3 +1,4 @@
+/* Common */
 body{
 	margin:0;
 	padding:0;
@@ -13,16 +14,14 @@ a, a:visited, a:hover, a:active {
   text-decoration:none;
 }
 
-#sidebar .logo{
-	width:150px;
-	margin-left:75px;
-	margin-top:25px;
+section{
+	margin-bottom:5px;
 }
-
+/* Navbar */
 #navbar{
-		background:#464646;
-			font-family: 'Open Sans', sans-serif;
-			font-size:20px;
+	background:#464646;
+	font-family: 'Open Sans', sans-serif;
+	font-size:20px;
 }
 
 #navbar .logo{
@@ -32,17 +31,20 @@ a, a:visited, a:hover, a:active {
 	margin-left:50px;
 }
 
-#navbar li{
+#navbar ul{
 	display:inline-block;
 }
+
+#navbar li{
+	display:inline-block;
+	margin-right:50px;
+}
+
 #navbar a{
 	color:#fff;
 }
 
-#logo{
-	width:100%;
-}
-
+/* Sidebar */
 #sidebar{
 	position:fixed;
 	display:inline-block;
@@ -54,6 +56,13 @@ a, a:visited, a:hover, a:active {
 	padding-top:25px;
 
 }
+
+#sidebar .logo{
+	width:150px;
+	margin-left:75px;
+	margin-top:25px;
+}
+
 #sidebar>ul{
 	margin:0;
 	padding-top:15px;
@@ -64,6 +73,7 @@ a, a:visited, a:hover, a:active {
 	font-size:20px;
 }
 
+/* Content */
 #content{
 	padding:75px;
 	font-size:20px;
@@ -77,6 +87,11 @@ a, a:visited, a:hover, a:active {
   }
 }
 
+
+
+
+
+
 .screenshot{
 	border:1px solid #ddd;
 	width:100%;
@@ -84,11 +99,6 @@ a, a:visited, a:hover, a:active {
 	-moz-box-shadow: 7px 12px 35px -8px rgba(0,0,0,0.51);
 	box-shadow: 7px 12px 35px -8px rgba(0,0,0,0.51);
 	margin-bottom:50px;
-}
-
-.label{
-	margin-right:5px;
-
 }
 
 .project{

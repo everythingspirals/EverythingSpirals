@@ -1,0 +1,51 @@
+	<section>
+		<h1>About</h1>
+
+		<h3 class="page-header"> Experience</h3>
+		<div ng-bind-html="portfolio.experience | trust"></div> 
+	</section>
+
+	<br/>
+
+	<section>
+		<h1>Recent Projects</h1>
+		<div ng-repeat="project in portfolio.projects">
+			<div class="project">
+				<h3 class="page-header">{{project.name}}</h3>
+				<div class="row">
+					<div class="col-lg-6">
+						<video class="screenshot" controls ng-if="project.sample.type == 'video'">
+						 	Your browser does not support the video tag.
+							<source ng-src="{{project.sample.source}}" type="video/mp4" />
+						</video>
+						<a ng-href="{{project.sample.source}}" ng-if="project.sample.type == 'img'">
+							<img ng-src="{{project.sample.source}}" class="screenshot" />
+						</a>
+					</div>
+					<div class="col-lg-6">
+						<section>
+							<label>Description</label>
+							<div>{{project.description}}</div>
+						</section>
+
+						<section>
+							<label>Stack</label>
+							<div>{{project.stack}}</div>
+						</section>
+
+						<section>
+							<label>Responsibilites</label>
+							<div>
+								<ul>
+									<li ng-repeat="responsibility in project.responsibilities">
+										{{responsibility}}
+									</li>
+								</ul>
+							</div> 
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+

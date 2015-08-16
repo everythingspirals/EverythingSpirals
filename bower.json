@@ -9,10 +9,11 @@
     "bower_components",
     "test",
     "tests",
-    "public/components"
+    "bower_components"
   ],
   "dependencies": {
     "bootstrap": "~3.3.5",
-    "react": "~0.13.3"
+    "react": "~0.13.3",
+    "angular-ui-router": "~0.2.15"
   }
 }

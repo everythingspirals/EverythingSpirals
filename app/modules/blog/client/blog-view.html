@@ -1,0 +1,8 @@
+<div ng-controller="BlogCtrl">
+	<section class="post" ng-repeat="post in blog.posts">
+		<h1>{{post.title}}</h1>
+		<p class="text-muted">{{date | date : short}}</p>
+		<article ng-bind-html="post.content | trust"></article>
+		<hr/>
+	</section>
+</div>
