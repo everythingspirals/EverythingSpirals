@@ -5,26 +5,16 @@ html(ng-app="etsApp")
 		link(href='/css/main.css' rel='stylesheet' type='text/css')
 		link(href='/components/bootstrap/dist/css/bootstrap.min.css' rel='stylesheet' type='text/css')
 		link(href="/modules/blog/client/blog.css" rel='stylesheet' type='text/css')
+		link(href="/modules/portfolio/client/portfolio.css" rel='stylesheet' type='text/css')
 
 body
 	//Navbar
 	nav(id="navbar" class="visible-sm visible-md")
-		img(class="logo" alt="Brand" src="/img/portfolio.jpg" class="img img-circle")
-		ul
-			li
-				a(href="#/portfolio ") Portfolio
-			li
-				a(href="#/blog") Blog
+		include nav.jade
 
 	//Sidebar
 	nav(id="sidebar" class="hidden-sm hidden-md")
-		img(class="logo" src="/img/portfolio.jpg" class="img img-circle") 
-		ul
-			li
-				a(href="#/portfolio") Portfolio
-			li
-				a(href="#/blog") Blog
-
+		include nav.jade
 
 	//Content
 	div(id="content" class="container-fluid" ui-view)

@@ -1,13 +1,4 @@
 	<section>
-		<h1>About</h1>
-
-		<h3 class="page-header"> Experience</h3>
-		<div ng-bind-html="portfolio.experience | trust"></div> 
-	</section>
-
-	<br/>
-
-	<section>
 		<h1>Recent Projects</h1>
 		<div ng-repeat="project in portfolio.projects">
 			<div class="project">
@@ -18,7 +9,7 @@
 						 	Your browser does not support the video tag.
 							<source ng-src="{{project.sample.source}}" type="video/mp4" />
 						</video>
-						<a ng-href="{{project.sample.source}}" ng-if="project.sample.type == 'img'">
+						<a ng-href="{{project.sample.link}}" ng-if="project.sample.type == 'img'">
 							<img ng-src="{{project.sample.source}}" class="screenshot" />
 						</a>
 					</div>
@@ -29,8 +20,15 @@
 						</section>
 
 						<section>
-							<label>Stack</label>
+							<label>Languages/Frameworks</label>
 							<div>{{project.stack}}</div>
+						</section>
+
+						<section>
+							<label>
+								Development Time
+							</label>
+							<div>~{{project.duration}} months</div>
 						</section>
 
 						<section>
