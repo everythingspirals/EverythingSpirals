@@ -14,7 +14,7 @@ exports.server = {
 };
 
 exports.views = {
-  path: './app/views',
+  path: 'views',
   engine: 'jade'
 }
 
