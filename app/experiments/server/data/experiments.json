@@ -1,0 +1,7 @@
+[
+	{
+		"title" : "Mandeltweet",
+		"description" : "Tweet-sized mandelbrot generator in JavaScript",
+		"screenshot" : "/img/fractal-generator.jpg"
+	}
+]

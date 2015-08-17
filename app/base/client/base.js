@@ -10,7 +10,7 @@ app.config(function($stateProvider, $urlRouterProvider) {
     .state('portfolio', {
       url: "/portfolio",
       controller:"PortfolioCtrl",
-      templateUrl: "/portfolio/client/portfolio-view.html",
+      templateUrl: "../html/portfolio-view.html",
       data: {
         img:"portfolio.jpg"
       }
@@ -18,9 +18,17 @@ app.config(function($stateProvider, $urlRouterProvider) {
     .state('blog', {
       url: "/blog",
       controller:"BlogCtrl",
-      templateUrl: "/blog/client/blog-view.html",
+      templateUrl: "../html/blog-view.html",
       data: {
         img:"blog.jpg"
+      }
+    })
+    .state('experiments', {
+      url: "/experiments",
+      controller:"ExperimentsCtrl",
+      templateUrl: "../html/experiments-view.html",
+      data: {
+        img:"experiments.gif"
       }
     });
 });

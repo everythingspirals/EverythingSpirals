@@ -6,7 +6,7 @@ var express = require('express');
 var path = require('path');
 
 //var mongoose = require('mongoose');
-var config = require('./config.js');
+var config = require('./config/express.js');
 var app = express();
 var router = express.Router();
 //var routes = require(config.routes.path)(router);
