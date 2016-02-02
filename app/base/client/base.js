@@ -12,7 +12,7 @@ app.config(function($stateProvider, $urlRouterProvider) {
       controller:"PortfolioCtrl",
       templateUrl: "../html/portfolio-view.html",
       data: {
-        img:"portfolio.jpg"
+        img:"hipster.jpg"
       }
     })
     .state('blog', {
