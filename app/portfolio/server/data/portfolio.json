@@ -72,6 +72,20 @@
 					"link":"http://www.abhayagiri.org"
 				},
 				"duration" : 6
+			},
+            			{
+				"name":"School Project - Witch Hunt",
+				"description":"Worked with three other team members to develop, document, and present a multiplayer browser game.",
+				"stack":"C#, AngularJS, T-SQL, Entity Framework, Web API 2, Bootstrap",
+				"responsibilities":[
+					"Designed and developed a system for players to interact and chat in real-time using Web Sockets",
+					"Game includes lobbies, player profiles, and leader boards."
+				],
+			     "sample":{
+					"type":"img",
+					"source":"/img/witchhunt.png"
+				},
+				"duration" : 3
 			}
 		]
 }
