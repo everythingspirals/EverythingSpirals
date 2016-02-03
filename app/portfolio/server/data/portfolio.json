@@ -76,9 +76,9 @@
             			{
 				"name":"School Project - Witch Hunt",
 				"description":"Worked with three other team members to develop, document, and present a multiplayer browser game.",
-				"stack":"C#, AngularJS, T-SQL, Entity Framework, Web API 2, Bootstrap",
+				"stack":"JavaScript, PHP, MySQL",
 				"responsibilities":[
-					"Designed and developed a system for players to interact and chat in real-time using Web Sockets",
+					"Designed and developed a system for players to interact and chat in real-time using Web Sockets.",
 					"Game includes lobbies, player profiles, and leader boards."
 				],
 			     "sample":{
