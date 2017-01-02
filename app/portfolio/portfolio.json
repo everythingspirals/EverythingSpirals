@@ -13,8 +13,8 @@
 		],
 		"sample": {
 			"type": "img",
-			"source": "/public/img/baseportal.jpg",
-			"link": "/public/img/baseportal.jpg"
+			"source": "/img/baseportal.jpg",
+			"link": "/img/baseportal.jpg"
 		},
 		"duration": 6
 	}, {
@@ -29,7 +29,7 @@
 		],
 		"sample": {
 			"type": "video",
-			"source": "/public/video/datex-business-intelligence.mp4#t=11"
+			"source": "/video/datex-business-intelligence.mp4#t=11"
 		},
 		"duration": 4
 	}, {
@@ -44,8 +44,8 @@
 		],
 		"sample": {
 			"type": "img",
-			"source": "/public/img/mriug.jpg",
-			"link": "/public/img/mriug.jpg"
+			"source": "/img/mriug.jpg",
+			"link": "/img/mriug.jpg"
 		},
 		"duration": 18
 	}, {
@@ -63,7 +63,7 @@
 		],
 		"sample": {
 			"type": "img",
-			"source": "/public/img/abhayagiri.jpg",
+			"source": "/img/abhayagiri.jpg",
 			"link": "http://www.abhayagiri.org"
 		},
 		"duration": 6
@@ -77,7 +77,7 @@
 		],
 		"sample": {
 			"type": "img",
-			"source": "/public/img/witchhunt.png"
+			"source": "/img/witchhunt.png"
 		},
 		"duration": 3
 	}]
