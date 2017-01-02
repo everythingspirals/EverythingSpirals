@@ -4,8 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "build": "webpack --config ./app/config/webpack.config.js",
-    "prod": "forever stopall && NODE_ENV=production forever start ./build/"
+    "build": "webpack --config ./config/webpack.config.js",
+    "prod": "http-server ./public/"
   },
   "author": "",
   "license": "ISC",
@@ -18,14 +18,14 @@
     "babel-preset-stage-2": "^6.13.0",
     "copy-webpack-plugin": "^3.0.1",
     "css-loader": "^0.23.1",
+    "es6-promise": "^4.0.5",
+    "http-server": "^0.9.0",
     "json-loader": "^0.5.4",
     "postcss-loader": "^0.9.1",
     "style-loader": "^0.13.1",
-    "webpack": "^1.13.1",
-    "webpack-dev-server": "^1.14.1"
+    "webpack": "^1.13.1"
   },
   "dependencies": {
-    "axios": "^0.13.1",
     "bootstrap": "^4.0.0-alpha.3",
     "json-loader": "^0.5.4",
     "react": "^15.3.0",

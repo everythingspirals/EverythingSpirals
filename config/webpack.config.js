@@ -1,8 +1,13 @@
 var path = require('path'),
-    webpack = require('webpack');
-
+    webpack = require('webpack'),
+    promise = require('es6-promise').polyfill();
 
 //PostCSS Loader
+var jsonLoader = {
+  test: /\.json$/,
+  loader: 'json-loader'
+};
+
 var postCSSLoader = {
       test: /\.css$/,
       loader: "style-loader!css-loader!postcss-loader"
@@ -18,20 +23,15 @@ var babelLoader = {
       }
 };
 
-var jsonLoader = {
-  test: /\.json$/,
-  loader: 'json'
-}
-
 module.exports = {
 
     //Entry
-    entry:  ['babel-polyfill', './app/app.js'],
+    entry:  ['babel-polyfill', './app/app.js'], //, './src/public/config/avconfig.js', './src/public/config/avlocalize.js'
 
     //Output
     output: {
-        filename: 'build/bundle.js',
-        publicPath: '/build'
+        filename: './public/js/bundle.js',
+        publicPath: './public/js/'
     },
 
     //Loaders
@@ -44,6 +44,13 @@ module.exports = {
     },
 
     //Plugins
+    plugins: [
+      new webpack.DefinePlugin({
+       'process.env':{
+         'NODE_ENV': JSON.stringify('production')
+       }
+     }),
+    ],
 
     //Dev Tools
     devtool: 'source-map',
