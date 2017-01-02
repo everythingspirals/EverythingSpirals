@@ -1,0 +1,84 @@
+{
+	"projects": [{
+		"name": "Lead Developer - Datex Base Portal",
+		"description": "Business Intelligence System for Commerical Real Estate Companies",
+		"stack": "C#, AngularJS, T-SQL, Entity Framework, Web API 2, Bootstrap",
+		"responsibilities": [
+			"Led a team of three junior developers",
+			"Designed System",
+			"Designed responsive UI",
+			"Developed an algorithm using b-trees to handle context-menu navigation in a single page application",
+			"Developed secure RESTful APIs using Microsoft Web API 2 with Identity Framework",
+			"Developed a library of AngularJS directives to simplify development"
+		],
+		"sample": {
+			"type": "img",
+			"source": "/public/img/baseportal.jpg",
+			"link": "/public/img/baseportal.jpg"
+		},
+		"duration": 6
+	}, {
+		"name": "Lead Developer - Datex Business Intelligence",
+		"description": "Business Intelligence System for Commerical Real Estate Companies",
+		"stack": "C#, AngularJS, T-SQL, Entity Framework, Web API 2, Bootstrap",
+		"responsibilities": [
+			"Led a team of three junior developers",
+			"Designed responsive UI",
+			"Integrated Google Charts API",
+			"Developed secure RESTful APIs using Microsoft Web API 2 with Identity Framework"
+		],
+		"sample": {
+			"type": "video",
+			"source": "/public/video/datex-business-intelligence.mp4#t=11"
+		},
+		"duration": 4
+	}, {
+		"name": "Lead Developer - MRI Software User Group",
+		"description": "Social networking site for users of the MRI software",
+		"stack": "VB.NET, ASP.NET 4.5, jQuery, T-SQL, Bootstrap",
+		"responsibilities": [
+			"Led a team of one junior developer",
+			"Met with the client and created issues/sprints ",
+			"Designed System",
+			"Designed UI"
+		],
+		"sample": {
+			"type": "img",
+			"source": "/public/img/mriug.jpg",
+			"link": "/public/img/mriug.jpg"
+		},
+		"duration": 18
+	}, {
+		"name": "Lead Developer - Abhayagiri",
+		"description": "Public website for the Buddhist Monastery, Abhayagiri",
+		"stack": "PHP, jQuery, MySQL, Bootstrap",
+		"responsibilities": [
+			"Designed System",
+			"Designed responsive UI",
+			"Developed a CMS for the client",
+			"Developed a simple javascript framework for handling async requests to the database",
+			"Developed a responsive, persistent audio player",
+			"Developed a shopping cart system",
+			"http://www.abhayagiri.org"
+		],
+		"sample": {
+			"type": "img",
+			"source": "/public/img/abhayagiri.jpg",
+			"link": "http://www.abhayagiri.org"
+		},
+		"duration": 6
+	}, {
+		"name": "School Project - Witch Hunt",
+		"description": "Worked with three other team members to develop, document, and present a multiplayer browser game.",
+		"stack": "JavaScript, PHP, MySQL",
+		"responsibilities": [
+			"Designed and developed a system for players to interact and chat in real-time using Web Sockets.",
+			"Game includes lobbies, player profiles, and leader boards."
+		],
+		"sample": {
+			"type": "img",
+			"source": "/public/img/witchhunt.png"
+		},
+		"duration": 3
+	}]
+}
