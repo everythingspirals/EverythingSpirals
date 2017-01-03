@@ -6,10 +6,10 @@ import Portfolio from '../portfolio/portfolio';
 export default React.createClass({
   render(){
     return (<div className="main">
-      <nav id="navbar" className="visible-sm visible-md">
+      <nav id="navbar" className="visible-xs visible-sm visible-md">
         <Nav/>
       </nav>
-      <nav id="sidebar" className="hidden-sm hidden-md">
+      <nav id="sidebar" className="hidden-xs hidden-sm hidden-md">
         <Nav/>
       </nav>
       <div id="content">
