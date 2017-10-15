@@ -5,7 +5,7 @@ export default React.createClass({
   render(){
     return (
       <div>
-    	<img alt="Brand" src="/img/google.jpg" className=" logo img img-circle"/>
+    	<img alt="Brand" src="/img/sushi.jpg" className=" logo img img-circle"/>
     	<ul>
     		<li>
     			<a href="/">Portfolio</a>
