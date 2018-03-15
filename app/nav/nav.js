@@ -11,7 +11,7 @@ export default React.createClass({
     			<a href="/">Portfolio</a>
         </li>
     		<li>
-    			<a href="/pdf/resume.pdf" target='_blank'>Resume</a>
+    			<a href="/pdf/resume2.pdf" target='_blank'>Resume</a>
         </li>
       </ul>
     </div>)
