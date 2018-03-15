@@ -1,5 +1,24 @@
 {
 	"projects": [{
+		"name": "Co-Founder & Lead Developer - Moontalk",
+		"description": "Social Media Network for Cryptocurrency Ethusiasts",
+		"stack": "ReactJS, NodeJS, MongoDB, Webpack, Babel, PostCSS",
+		"responsibilities": [
+			"Developed a live Twitter style tweet system with likes, reply threads, reports, etc powered by Web Sockets",
+			"Developed a Portfolio Management system for cryptocurrency assets",
+			"Developed a feeder for parsing and aggregating rss news feeds from multiple sources, along with tagging algorithm for extraction of mentioned cryptocurrencies",
+			"Developed a feeder which hits multiple cryptocurrency exchange APIs and aggregates prices for each cryptocurrency using NodeJS clusters",
+			"Developed RESTful API secured by JSON Web Tokens",
+			"Extensive use of ES2015,2016,2017 include async/await",
+			"Winner - 1st Place CSUN Fast Pitch Startup Competition (http://csunfastpitch.com)",
+			"https://moontalk.io"
+		],
+		"sample": {
+			"type": "img",
+			"source": "/img/moontalk1.png",
+			"link": "https://moontalk.io"
+		}
+	},{
 		"name": "Lead Developer - Datex Base Portal",
 		"description": "Business Intelligence System for Commerical Real Estate Companies",
 		"stack": "C#, AngularJS, T-SQL, Entity Framework, Web API 2, Bootstrap",
